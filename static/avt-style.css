@@ -1,0 +1,64 @@
+/* CLASS CONTAINER [CONTAINER] */
+.container {
+    padding-top: 10px;
+}
+
+/* CLASS AVTPICS [AVTPICS] >>> in class container */
+.avtpics {
+    padding: 0 12px;
+    display: grid;
+    grid-template-columns: 14rem 14rem 14rem 14rem 14rem 14rem;
+    gap: 30px;
+    overflow: hidden;
+}
+
+/* CLASS AVATAR [AVT] >>> in class container-avtpics */
+.avt {
+    overflow-clip-margin: content-box;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: aliceblue;
+    width: 14.1rem;   
+}
+
+.avt img {
+    width: 14rem;
+    height: 14rem;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.avt .id .id1 {
+    width: 100%;
+    text-align: center;
+
+    padding-bottom: 5px;
+}
+.avt .id .id1 a {
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.avt .id .id1 h3 {
+    color: aliceblue;
+    width: 100%; 
+}
+.avt .id .id1 a {
+    color: aliceblue;
+}
+
+.avt .id .id2 {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(214, 69, 69);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.avt .id .id2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.avt .id .id2 a:hover {
+    font-weight: 900;
+}
