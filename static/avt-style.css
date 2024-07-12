@@ -1,7 +1,6 @@
 /* CLASS CONTAINER [CONTAINER] */
 .container {
     padding-top: 10px;
-    height: 90vh;
 }
 
 /* CLASS AVTPICS [AVTPICS] >>> in class container */
@@ -10,7 +9,9 @@
     display: grid;
     grid-template-columns: 14rem 14rem 14rem 14rem 14rem 14rem;
     gap: 30px;
-    overflow: hidden;
+    overflow: auto;
+    overflow-x: hidden;
+    height: 90vh;
 }
 
 /* CLASS AVATAR [AVT] >>> in class container-avtpics */
